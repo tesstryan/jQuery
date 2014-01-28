@@ -11,12 +11,15 @@
 
 %container {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 500px;
 }
 
 // Global tags
 
 body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 a {
@@ -24,3 +27,44 @@ a {
 }
 
 // Everything else
+
+form {
+    @extend %container;
+    padding: 1em 0 0;
+}
+
+fieldset {
+    border: 1px dashed #aaa;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    padding: 10px 14px;
+}
+
+legend {
+    padding: 0 .5em;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #ccc;
+    background: none;
+    border-width: 0 0 1px;
+    padding: .5em .8em;
+    font-size: 14px;
+    width: 75%;
+    outline: none;
+}
+
+label {
+    font-size: 12px;
+    width: 20%;
+    display: inline-block;
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+b {
+    font-weight: bold;
+}
