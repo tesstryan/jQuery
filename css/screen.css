@@ -58,3 +58,8 @@ table {
 a {
   color: #800000;
 }
+
+.dark {
+  background: black;
+  color: white;
+}
