@@ -11,16 +11,39 @@
 
 %container {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 500px;
 }
 
 // Global tags
 
 body {
-}
-
-a {
-    color: #800000;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 // Everything else
+
+.wrap {
+    @extend %container;
+}
+
+.bills {
+    a {
+        border: 3px solid white;
+        display: inline-block;
+        font-size: 0;
+        border-radius: 10px;
+        background: url(http://fillmurray.com/100/100) no-repeat 0 0;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+b {
+    font-weight: bold;
+}
