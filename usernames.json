@@ -1,4 +1,4 @@
-{
+
   [
     { username: "homer" },
     { username: "bart" },
@@ -6,4 +6,4 @@
     { username: "maggie" },
     { username: "marge" }
   ]
-}
+
