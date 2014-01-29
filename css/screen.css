@@ -58,3 +58,17 @@ table {
 a {
   color: #800000;
 }
+
+.wrap {
+  width: 300px;
+  margin: 50px auto;
+}
+
+
+label {
+  vertical-align: middle;
+}
+
+label input {
+  padding-bottom: 0;
+}
