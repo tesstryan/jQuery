@@ -55,11 +55,28 @@ table {
   background-position: 0 0;
 }
 
+.wrap {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 30px;
+}
+
 a {
   color: #800000;
 }
 
-.dark {
-  background: black;
-  color: white;
+h1 {
+  font-size: 30px;
+  margin-bottom: .5em;
+}
+
+button {
+  background: white;
+  border: 1px solid #888;
+  border-radius: 5px;
+  outline: none;
 }
