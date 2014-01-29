@@ -1,9 +1,8 @@
-
   [
-    { username: "homer" },
-    { username: "bart" },
-    { username: "lisa" },
-    { username: "maggie" },
-    { username: "marge" }
+    { "username": "homer" },
+    { "username": "bart" },
+    { "username": "lisa" },
+    { "username": "maggie" },
+    { "username": "marge" }
   ]
 
