@@ -98,7 +98,9 @@ input {
 
 label {
   font-size: 12px;
-  width: 20%;
+  line-height: 20px;
+  padding-top: 6px;
+  width: 22%;
   display: inline-block;
 }
 
@@ -108,4 +110,18 @@ p {
 
 b {
   font-weight: bold;
+}
+
+.blank {
+  padding: 0 40px;
+  border-bottom: 1px solid #999;
+  margin: 0 2px;
+}
+
+.story {
+  line-height: 24px;
+  background: #f8f8f8;
+  padding: 15px 18px;
+  border-right: 5px;
+  margin-bottom: 1em;
 }

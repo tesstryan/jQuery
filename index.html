@@ -1,80 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Forms</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/screen.css" media="all">
-    <script src="/js/jquery.js"></script>
+<title>Forms</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="all">
+<script src="/js/jquery.js" type="text/javascript"></script>
 </head>
 <body>
-
-</body>
-</html>
-
 <form>
-  <fieldset>
-    <legend>About You</legend>
-    <div>
-      <label>Name</label>
-      <input type="text">
+    <fieldset>
+        <legend>Fill in the blanks</legend>
+        <div>
+            <label>Noun</label> <input type="text">
+        </div>
+        <div>
+            <label>Plural noun</label> <input type="text">
+        </div>
+        <div>
+            <label>Verb</label> <input type="text">
+        </div>
+        <div>
+            <label>Adjective</label> <input type="text">
+        </div>
+        <div>
+            <label>Currency</label> <input type="text">
+        </div>
+        <div>
+            <label>Woman's name</label> <input type="text">
+        </div>
+        <div>
+            <label>Street name</label> <input type="text">
+        </div>
+        <div>
+            <label>Country</label> <input type="text">
+        </div>
+        <div>
+            <label>Broadway musical</label> <input type="text">
+        </div>
+        <div>
+            <label>Two-digit number</label> <input type="text">
+        </div>
+    </fieldset>
+    <div class="story">
+        One day, as I was walking down
+        <span class="blank street"></span>
+        on my way to a matinee performance of
+        <span class="blank musical"></span>,
+        I spied a
+        <span class="blank noun"></span>
+        in the window of
+        <span class="blank womans-name"></span>'s
+        <span class="blank adjective"></span>
+        boutique store. I knew right then: I needed to
+        <span class="blank verb"></span>
+        it. So I checked my wallet. Sadly, I only had
+        <span class="blank number"></span>
+        <span class="blank currency"></span>.
+        Fortunately, bartering is legal in
+        <span class="blank state"></span>,
+        so I traded in all my
+        <span class="blank plural-noun"></span>,
+        and took it home with me.
     </div>
-    <div>
-      <label>Age</label>
-      <input type="text">
-    </div>
-    <div>
-      <label>Nationality</label>
-      <input type="text">
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <legend>Favorite…</legend>
-    <div>
-      <label>Beatle</label>
-      <input type="text">
-    </div>
-    <div>
-      <label>Chicago bridge</label>
-      <input type="text">
-    </div>
-    <div>
-      <label>Australian Rugby player</label>
-      <input type="text">
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <legend>Least favorite…</legend>
-    <div>
-      <label>US State</label>
-      <input type="text">
-    </div>
-    <div>
-      <label>Broadway musical</label>
-      <input type="text">
-    </div>
-    <div>
-      <label>three-digit number</label>
-      <input type="text">
-    </div>
-  </fieldset>
-
-    <b>Step 1:</b>
-    When clicking into a field, give the fieldset a cyan background. Only one fieldset should be cyan at a time.
-  </p>
-
-  <p>
-    <b>Step 2:</b>
-    When clicking into a field, show this checkmark <img src="http://cdn.dustball.com/tick.png" alt=""> in the field, to the left of the input cursor. That is, don't let the inputted text overlap the image.
-  </p>
-
-  <p>
-    <b>Step 3:</b>
-   When hovering over a fieldset, make all the borders of the fields in that fieldset blue. They should go back to normal when the mouse leaves the fieldset.
-  </p>
+    <p>
+        <b>Step 1:</b> When clicking into a field, make its adjacent label bold.
+    </p>
+    <p>
+        <b>Step 2:</b> When clicking into a field, also make the fieldset backgroun cyan.
+    </p>
+    <p>
+        <b>Step 3:</b> When hovering over a div, give the input field inside it a full blue solid border.
+    </p>
+    <p>
+        <b>Step 4:</b> After a field loses focus, fill in the blank in the paragraph with the requisite text. The blank should lose its underline but the new text should be in blue.
+    </p>
 </form>
-
 </body>
 </html>
