@@ -2,8 +2,14 @@ $(function() {
 
  $("input").focus(
  	function () {
-      $(this).prev("label").css("font-weight", "bold");
-      $(this).css("background", "cyan");
+      $(this).prev("label").addClass("font_weight");
+      $(this).addClass("cyan_class");
+  });
+
+  $("input").blur(
+ 	function () {
+      $(this).prev("label").removeClass("font_weight");
+      $(this).removeClass("cyan_class");
   });
 
  $("div").hover(
