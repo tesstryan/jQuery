@@ -125,3 +125,9 @@ b {
   border-right: 5px;
   margin-bottom: 1em;
 }
+
+.hover_class {
+  border-color: blue;
+  border-width: 1px;
+  border-style: solid;
+}
